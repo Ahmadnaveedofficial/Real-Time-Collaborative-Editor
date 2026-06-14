@@ -1,8 +1,3 @@
-Haan yar. Repo ka structure clear hai: `Backend`, `Frontend`, `.dockerignore`, `.gitignore`, aur `dockerfile` main branch me hain. GitHub par abhi description/topics missing hain, isliye README aur repo description strong karna zaroori hai. ([GitHub][1])
-
-Ye full professional `README.md` use karo:
-
-````md
 # 🚀 Real-Time Collaborative Code Editor
 
 A full-stack real-time collaborative code editor that allows multiple users to write, edit, and synchronize code together in a shared workspace.
@@ -90,7 +85,7 @@ Application Load Balancer
         |
         |
 Public Live URL
-````
+```
 
 ---
 
@@ -98,34 +93,34 @@ Public Live URL
 
 ### Frontend
 
-* React.js
-* JavaScript ES6+
-* Tailwind CSS
-* Monaco Editor
-* Yjs
-* y-monaco
-* y-socket.io
+- React.js
+- JavaScript ES6+
+- Tailwind CSS
+- Monaco Editor
+- Yjs
+- y-monaco
+- y-socket.io
 
 ### Backend
 
-* Node.js
-* Express.js
-* Socket.IO
+- Node.js
+- Express.js
+- Socket.IO
 
 ### DevOps & Cloud
 
-* Docker
-* Amazon Elastic Container Registry ECR
-* Amazon Elastic Container Service ECS
-* Application Load Balancer ALB
-* AWS Cloud Infrastructure
+- Docker
+- Amazon Elastic Container Registry (ECR)
+- Amazon Elastic Container Service (ECS)
+- Application Load Balancer (ALB)
+- AWS Cloud Infrastructure
 
 ### Tools
 
-* Git
-* GitHub
-* Postman
-* VS Code
+- Git
+- GitHub
+- Postman
+- VS Code
 
 ---
 
@@ -254,12 +249,12 @@ docker push <aws-account-id>.dkr.ecr.<region>.amazonaws.com/editor_ecs/server:la
 
 The image was deployed using Amazon ECS with:
 
-* ECS Cluster
-* ECS Service
-* ECS Task Definition
-* Fargate launch type
-* Container port mapping
-* Application Load Balancer
+- ECS Cluster
+- ECS Service
+- ECS Task Definition
+- Fargate launch type
+- Container port mapping
+- Application Load Balancer
 
 ### 5. Load Balancer Configuration
 
@@ -269,11 +264,11 @@ An Application Load Balancer was configured to expose the application publicly o
 
 The deployed application was tested on:
 
-* Desktop browser
-* Mobile browser
-* Public internet
-* WebSocket connection
-* Real-time collaboration flow
+- Desktop browser
+- Mobile browser
+- Public internet
+- WebSocket connection
+- Real-time collaboration flow
 
 ---
 
@@ -304,10 +299,10 @@ Editor content stays synchronized
 
 The application is designed to work across desktop and mobile screens.
 
-* Desktop users get the full collaborative editor experience.
-* Mobile users can access the application through the public URL.
-* Layout adjusts for smaller screens.
-* Online users list remains accessible on mobile devices.
+- Desktop users get the full collaborative editor experience.
+- Mobile users can access the application through the public URL.
+- Layout adjusts for smaller screens.
+- Online users list remains accessible on mobile devices.
 
 ---
 
@@ -315,15 +310,15 @@ The application is designed to work across desktop and mobile screens.
 
 During development and deployment, several real-world challenges were handled:
 
-* Managing real-time WebSocket communication in production
-* Handling frontend build output inside a backend container
-* Fixing hardcoded localhost URLs for production deployment
-* Configuring Docker multi-stage builds
-* Managing Amazon ECR image versions
-* Updating ECS Task Definition revisions
-* Connecting ECS service with Application Load Balancer
-* Testing public access across desktop and mobile devices
-* Debugging production WebSocket connectivity issues
+- Managing real-time WebSocket communication in production
+- Handling frontend build output inside a backend container
+- Fixing hardcoded localhost URLs for production deployment
+- Configuring Docker multi-stage builds
+- Managing Amazon ECR image versions
+- Updating ECS Task Definition revisions
+- Connecting ECS service with Application Load Balancer
+- Testing public access across desktop and mobile devices
+- Debugging production WebSocket connectivity issues
 
 ---
 
@@ -331,16 +326,16 @@ During development and deployment, several real-world challenges were handled:
 
 This project provided hands-on experience in:
 
-* Building real-time collaborative applications
-* Using CRDTs for conflict-free synchronization
-* Working with WebSockets and Socket.IO
-* Integrating Monaco Editor with Yjs
-* Dockerizing full-stack applications
-* Deploying containers to AWS ECS
-* Managing images with Amazon ECR
-* Configuring Application Load Balancer
-* Debugging production cloud deployments
-* Understanding cloud-native application architecture
+- Building real-time collaborative applications
+- Using CRDTs for conflict-free synchronization
+- Working with WebSockets and Socket.IO
+- Integrating Monaco Editor with Yjs
+- Dockerizing full-stack applications
+- Deploying containers to AWS ECS
+- Managing images with Amazon ECR
+- Configuring Application Load Balancer
+- Debugging production cloud deployments
+- Understanding cloud-native application architecture
 
 ---
 
@@ -356,15 +351,15 @@ Special thanks for the teamwork, collaboration, and contributions throughout the
 
 Planned improvements include:
 
-* Room-based collaboration
-* Multiple file support
-* Authentication system
-* Code execution support
-* Persistent document storage
-* TypeScript migration
-* Next.js version
-* CI/CD pipeline using GitHub Actions
-* HTTPS support with custom domain and SSL certificate
+- Room-based collaboration
+- Multiple file support
+- Authentication system
+- Code execution support
+- Persistent document storage
+- TypeScript migration
+- Next.js version
+- CI/CD pipeline using GitHub Actions
+- HTTPS support with custom domain and SSL certificate
 
 ---
 
@@ -378,21 +373,5 @@ This project is created for learning, practice, and educational purposes.
 
 **Muhammad Ahmad Naveed**
 
-* GitHub: [https://github.com/Ahmadnaveedofficial](https://github.com/Ahmadnaveedofficial)
-* Project Repository: [https://github.com/Ahmadnaveedofficial/Real-Time-Collaborative-Editor](https://github.com/Ahmadnaveedofficial/Real-Time-Collaborative-Editor)
-
-````
-
-Repo description me ye add karo:
-
-```txt
-A real-time collaborative code editor built with React, Monaco Editor, Yjs, Socket.IO, Node.js, Docker, Amazon ECR, Amazon ECS, and AWS Application Load Balancer.
-````
-
-Topics add karo:
-
-```txt
-react nodejs express socketio websocket yjs monaco-editor docker aws ecs ecr real-time collaborative-editor cloud-deployment
-```
-
-[1]: https://github.com/Ahmadnaveedofficial/Real-Time-Collaborative-Editor "GitHub - Ahmadnaveedofficial/Real-Time-Collaborative-Editor · GitHub"
+- GitHub: [https://github.com/Ahmadnaveedofficial](https://github.com/Ahmadnaveedofficial)
+- Project Repository: [https://github.com/Ahmadnaveedofficial/Real-Time-Collaborative-Editor](https://github.com/Ahmadnaveedofficial/Real-Time-Collaborative-Editor)
